@@ -44,3 +44,7 @@ p:first-of-type:first-letter {
     color: var(--indigo-8);
     text-shadow: 0.25rem 0.25rem purple;
   }
+
+body{
+    align-items: center;
+}
