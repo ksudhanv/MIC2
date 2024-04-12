@@ -1,4 +1,8 @@
 @layer open-props, base, styles;
+@import url(https://fonts.googleapis.com/css?family=Inter);
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap");
+@import url(https://unpkg.com/open-props/open-props.min.css);
+@import url(https://unpkg.com/open-props/normalize.min.css);
 
 .card-container {
     container-name: answer;
@@ -30,3 +34,12 @@
       position: relative;
     }
 }
+p:first-of-type:first-letter {
+    font-family: "Merriweather", serif;
+    initial-letter: var(--initial, 2 2);
+    -webkit-initial-letter: var(--initial, 2 2);
+    font-weight: bold;
+    margin-right: 1rem;
+    color: var(--indigo-8);
+    text-shadow: 0.25rem 0.25rem purple;
+  }
