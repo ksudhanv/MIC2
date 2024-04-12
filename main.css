@@ -6,7 +6,6 @@
 
 .card-container {
     container-name: answer;
-    align-items: center;
   }
 
 @container style(--correct: true) {
@@ -37,14 +36,8 @@
 }
 p:first-of-type:first-letter {
     font-family: "Merriweather", serif;
-    initial-letter: var(--initial, 2 2);
-    -webkit-initial-letter: var(--initial, 2 2);
+    initial-letter: var(--initial, 5 5);
+    -webkit-initial-letter: var(--initial, 5 5);
     font-weight: bold;
     margin-right: 1rem;
-    color: var(--indigo-8);
-    text-shadow: 0.25rem 0.25rem purple;
   }
-
-body{
-    align-items: center;
-}
