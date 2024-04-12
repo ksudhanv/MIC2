@@ -6,6 +6,7 @@
 
 .card-container {
     container-name: answer;
+    align-items: center;
   }
 
 @container style(--correct: true) {
