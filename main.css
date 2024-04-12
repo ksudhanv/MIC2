@@ -1,0 +1,32 @@
+@layer open-props, base, styles;
+
+.card-container {
+    container-name: answer;
+  }
+
+@container style(--correct: true) {
+    .answer-card {
+      background-color: rgb(0,1,0);
+    }
+}
+@container style(--correct: false) {
+    .answer-card {
+      background-color: rgb(1,0,0);
+    }
+}
+
+@layer styles {
+    
+    .card-container {
+      display: grid;
+    }
+    
+    .answer-card {
+      display: grid;
+      padding: 1.5rem;
+      border-radius: 0.5rem;
+      line-height: 1.2;
+      box-shadow: var(--shadow-4);
+      position: relative;
+    }
+}
